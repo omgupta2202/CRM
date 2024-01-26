@@ -592,7 +592,7 @@ video {
 
 .bg-teal-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(20 184 166 / var(--tw-bg-opacity));
+  background-color: rgb(167, 199, 231);
 }
 
 .bg-red-400 {
@@ -617,7 +617,7 @@ video {
 
 .bg-teal-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 148 136 / var(--tw-bg-opacity));
+  background-color: rgb(96, 130, 182);
 }
 
 .bg-gray-200 {
@@ -632,7 +632,7 @@ video {
 
 .bg-teal-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 94 89 / var(--tw-bg-opacity));
+  background-color: rgb(96, 130, 182)
 }
 
 .bg-sky-600 {

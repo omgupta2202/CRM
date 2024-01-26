@@ -8,7 +8,7 @@ from .models import Team
 
 @login_required
 def teams_list(request):
-    teams = Team.objects.filter(members__in=[request.user])
+    teams = Team.objects.all()
 
     return render(request, 'team/teams_list.html', {'teams': teams})
 

@@ -18,7 +18,7 @@
         {% if messages %}
             <div class="py-6 px-6">
                 {% for message in messages %}
-                    <div class="py-4 px-4 bg-teal-300 text-white rounded-xl">
+                    <div class="py-4 px-4 bg-grey-300 text-white rounded-xl">
                         {{ message }}
                     </div>
                 {% endfor %}
@@ -28,6 +28,8 @@
         {% block content %}
         {% endblock %}
 
-        {% include 'core/partials/footer.html' %}
+        <footer class="footer">
+            {% include 'core/partials/footer.html' %}
+        </footer>
     </body>
 </html>
